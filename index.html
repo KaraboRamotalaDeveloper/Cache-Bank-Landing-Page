@@ -30,23 +30,63 @@
     <!-- COMPONENT 1-->
      <div class="mx-auto bg-white">
         <!-- Main container with navigation and header content -->
-        <div class="relative flex flex-wrap items-center justify-between">
+        <div class="relative flex flex-wrap items-center justify-between w-full shrink-0">
 
          <div class="px-4">
           <img src="/assets/component-1/navigation/cache-bank-logo.png" alt="Cache Bank Logo" class="h-8 px-4">
          </div>
-         <div class="text-sm font-normal text-gray-700 md:flex items-center justify-between gap-12 shrink-0">
+         <div class="hidden md:flex items-center justify-between gap-12 shrink-0 text-sm font-normal text-gray-700 ">
           <a href="" class="hover:text-gray-900">Product</a>
           <a href="" class="hover:text-gray-900">Features</a>
           <a href="" class="hover:text-gray-900">Get Started</a>
           <a href="" class="hover:text-gray-900">Contact</a>
          </div>
-         <div class="text-sm font-normal text-gray-700 flex gap-8 p-4 items-center">
+         <div class="hidden md:flex gap-8 p-4 items-center text-sm font-normal text-gray-700 ">
           <button class="hover:text-gray-900">Log In</button>
-          <button class="font-bold bg-green-500 px-4 py-2 text-blue-50 rounded-xl hover:bg-pink-600 hover:text-white">Sign-Up</button>
+          <button class="font-bold bg-green-500 px-4 py-2 text-blue-100 rounded-xl hover:bg-pink-600 hover:text-white">Sign-Up</button>
+         </div>
+         <button class="p-4 md:hidden" id="mobile-menu-toggle" onclick="toggleMenu()">
+          <svg
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          class="h-6 w-6"
+          fill="none"
+          >
+          <g clip-path="url(#clip0_429_11066)">
+            <path
+              d="M3 6.00092H21M3 12.0009H21M3 18.0009H21"
+              stroke="#292929"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_429_11066">
+              <rect
+                width="24"
+                height="24"
+                fill="white"
+                transform="translate(0 0.000915527)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+         </button>
+         <div class="absolute flex flex-col items-start justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-8 shadow-main" id="mobile-menu">
+          <div class="md:hidden flex flex-col items-center justify-between gap-12 shrink-0 text-sm font-normal text-gray-700 ">
+            <a href="" class="hover:text-gray-900">Product</a>
+            <a href="" class="hover:text-gray-900">Features</a>
+            <a href="" class="hover:text-gray-900">Get Started</a>
+            <a href="" class="hover:text-gray-900">Contact</a>
+           </div>
+           <div class="md:hidden gap-8 p-4 items-center text-sm font-normal text-gray-700 ">
+            <button class="hover:text-gray-900">Log In</button>
+            <button class="font-bold bg-green-500 px-4 py-2 text-blue-100 rounded-xl hover:bg-pink-600 hover:text-white">Sign-Up</button>
+           </div>
          </div>
         </div>
-
       </div>
      </div>
 
@@ -83,6 +123,7 @@
     </div>
 
     <!--SCRIPTS-->
+    <script src="/src/index.js"
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/leaflet.js"></script>
