@@ -35,7 +35,7 @@
          <div class="px-4">
           <img src="/assets/component-1/navigation/cache-bank-logo.png" alt="Cache Bank Logo" class="h-8 px-4">
          </div>
-         <div class="hidden md:flex items-center justify-between gap-12 shrink-0 text-sm font-normal text-gray-700 ">
+         <div class="hidden md:flex items-center justify-between gap-12 shrink-0 text-sm font-normal text-blue-900">
           <a href="" class="hover:text-gray-900">Product</a>
           <a href="" class="hover:text-gray-900">Features</a>
           <a href="" class="hover:text-gray-900">Get Started</a>
@@ -43,7 +43,7 @@
          </div>
          <div class="hidden md:flex gap-8 p-4 items-center text-sm font-normal text-gray-700 ">
           <button class="hover:text-gray-900">Log In</button>
-          <button class="font-bold bg-green-500 px-4 py-2 text-blue-100 rounded-xl hover:bg-pink-500 hover:text-white">Sign-Up</button>
+          <button class="font-bold bg-green-500 px-4 py-2 text-blue-100 rounded-xl hover:bg-pink-500 hover:text-white active:scale-105 ">Sign-Up</button>
          </div>
          <button class="p-4 md:hidden" id="mobile-menu-toggle" onclick="toggleMenu()">
           <svg
@@ -74,33 +74,41 @@
           </defs>
         </svg>
          </button>
-         <div class="hidden absolute flex flex-col items-start justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-8 shadow-main" id="mobile-menu">
-            <a href="" class="hover:text-gray-900">Product</a>
-            <a href="" class="hover:text-gray-900">Features</a>
-            <a href="" class="hover:text-gray-900">Get Started</a>
-            <a href="" class="hover:text-gray-900">Contact</a>
-            <button class="hover:text-gray-900">Log In</button>
-            <button class="font-bold bg-green-500 px-4 py-2 text-blue-100 rounded-xl hover:bg-pink-600 hover:text-white">Sign-Up</button>
+         <div class="hidden absolute flex flex-col items-start justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-8 shadow-main text-blue-900" id="mobile-menu">
+            <a href="" class="hover:text-blue-700">Product</a>
+            <a href="" class="hover:text-blue-700">Features</a>
+            <a href="" class="hover:text-blue-700">Get Started</a>
+            <a href="" class="hover:text-blue-700">Contact</a>
+            <button class="text-grey-900 hover:text-blue-700">Log In</button>
+            <button class="font-bold bg-green-500 px-4 py-2 text-blue-300 rounded-xl hover:bg-pink-600 hover:text-white active:scale-105 ">Sign-Up</button>
          </div>
         </div>
       </div>
      </div>
 
     <!-- COMPONENT 2: HERO AND ENDORSEMENTS-->
+     <!-- HERO SECTIONS -->
     <section class="grid grid-cols-1 my-auto mt-12 mb-8 w-full md:grid-cols-2 md:gap-5 xl:gap-14">
       <!-- Wide full-width container for additional content -->
-       <div>
-        <h1>The Clever Place To Keep Your Cache</h1>
-        <p>Cache Bank is designed exclusively for software developers. We understand your financial needs are as unique as the code you write. Our services offer cutting-edge financial solutions that help you take care of your cash.</p>
-        <div>
-          <button>Join Cache Now</button>
-          <button>Join Our Discord Server</button>
+
+       <div class="flex flex-col text-center text-blue-900 justify-center col-span-1 lg:text-start">
+        <h1 class="font-extrabold text-4xl mb-6 leading-tight lg:text-6xl">The Clever Place To Keep Your Cache</h1>
+        <p class="font-normal leading-7 text-base ">Cache Bank is designed exclusively for software developers. We understand your financial needs are as unique as the code you write. Our services offer cutting-edge financial solutions that help you take care of your cash.</p>
+        <div class="flex flex-col lg:flex-row gap-4 items-center mt-4">
+          <button class="flex items-center text-sm text-white font-bold py-4 px-7 bg-green-600 rounded-xl  hover:bg-pink-500 hover:shadow-xl
+          active:scale-110 transition duration-1000 transition-transform ease-out">
+            Join Cache Now
+          </button>
+          <button class="flex items-center text-sm text-white font-bold py-4 px-7 bg-green-600 rounded-xl  hover:bg-pink-500 hover:shadow-xl
+          active:scale-110 transition duration-1000 transition-transform ease-out">
+            Join Our Discord Server
+          </button>
         </div>
        </div>
 
        <!-- HERO IMAGE FOR MEDIUM AND LARGER SCREENS -->
-       <div>
-        <img class="" src="/assets/component-2/hero-image.png"
+       <div class="hidden md:flex justify-end col-span-1 items-center">
+        <img class="" src="/assets/component-2/hero-image.png">
        </div>
     </section>
 
