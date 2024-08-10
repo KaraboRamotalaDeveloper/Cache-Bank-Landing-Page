@@ -273,27 +273,34 @@
     <!-- COMPONENT 4: STATS AND GETTING STARTED -->
     <section class="w-full">
       <!-- Wide full-width container for additional content -->
-       <div class="container flex flex-col items-center mx-auto my-12">
-        <div class="relative">
-          <div class="">
-          <div>
+       <div class="container flex flex-col items-center mx-auto my-32 gap-16 text-blue-900">
+        <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8">
+          <!-- Statistics Blocks-->
+
+           <!-- Block 1 -->
             <div class="flex flex-col items-center">
-              <h4><span>250</span><span>+</span></h4>
-              <p>Hours Saved Sitting In The Bank</p>
+              <h3 class="text-5xl font-extrabold leading-tight text-center"><span id="countto1" countto="250">250</span><span>+</span></h3>
+              <p class="text-base font-medium leading-7 text-center">Hours Saved Sitting In The Bank</p>
             </div>
+
+            <!-- Block 2 -->
             <div class="flex flex-col items-center">
-              <h4><span>12</span><span>m</span></h4>
-              <p>Cache Saved</p>
+              <h3 class="text-5xl font-extrabold leading-tight text-center"><span id="countto12" countto="12">12</span><span>m</span></h3>
+              <p class="text-base font-medium leading-7 text-center">Cache Saved</p>
             </div>
+
+            <!-- Block 3 -->
             <div class="flex flex-col items-center">
-              <h4><span>2.8</span><span>k+</span></h4>
-              <p>Global Partners</p>
+              <h3 class="text-5xl font-extrabold leading-tight text-center"><span id="countto3" countto="2600" data-decimal="1">2.8</span><span>k+</span></h3>
+              <p class="text-base font-medium leading-7 text-center">Global Partners</p>
             </div>
+
+            <!-- Block 4 -->
             <div class="flex flex-col items-center">
-              <h4>
-                <span>18,000</span><span>+</span>
-              </h4>
-              <p>Happy Developers</p>
+              <h3 class="text-5xl font-extrabold leading-tight text-center">
+                <span id="countto4" countto="18000">18,000</span><span>+</span>
+              </h3>
+              <p class="text-base font-medium leading-7 text-center">Happy Developers</p>
             </div>
           </div>
 
