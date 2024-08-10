@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="./assets/css/tailwind/tailwind.min.css">
     <link rel="stylesheet" href="./assets/css/theme.css">
     <link rel="stylesheet" href="./assets/css/loopple/loopple.css">
+    <!--OWN STYLESHEET-->
+    <link rel="stylesheet" href="/assets/css/index.css">
 </head>
 
 <body class="bg-gray-100">
@@ -274,9 +276,9 @@
     <section class="w-full">
       <!-- Wide full-width container for additional content -->
        <div class="container flex flex-col items-center mx-auto my-32 gap-16 text-blue-900">
-        <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8">
-          <!-- Statistics Blocks-->
 
+        <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8">
+          <!-- STATISTICS BLOCKS-->
            <!-- Block 1 -->
             <div class="flex flex-col items-center">
               <h3 class="text-5xl font-extrabold leading-tight text-center"><span id="countto1" countto="250">250</span><span>+</span></h3>
@@ -303,64 +305,74 @@
               <p class="text-base font-medium leading-7 text-center">Happy Developers</p>
             </div>
           </div>
+          <!-- END OF STATISTICS BLOCKS-->
 
-          <div class="container">
-            <div class="grid grid-cols-2 gap-6">
-
-              <div class="">
-                <div>
-                  <img src="assets/component-4/getting-started.png" alt="A presentation picture of how cache works"> 
-                </div>
+          <!-- GET STARTED SECTION-->
+           <div class="w-full">
+             <div class="container flex flex-col items-center gap-16 mx-auto my-32">
+               <div class="grid grid-cols-1 lg:grid-cols-2 gap-32">
+                <!-- GET STARTED:IMAGE -->
+              <div class="hidden bg-contain 
+              bg-no-repeat bg-center lg:block rounded-3xl get-started-image"> 
               </div>
 
-              <div class="">
-                <div>
-                  <div>
-                    <!---->
-                    <h4>How Cache Works?</h4>
-                    <p>Cache Bank simplifies sign-up with a user-friendly website, streamlined account options, and an efficient verifications process, making banking accessible and hassle-free for developers.</p>
+              <div class="flex flex-col gap-16">   
+
+                 <!-- GET STARTED:BRIEF MESSAGE-->
+                  <div class="flex flex-col gap-2 text-center md:text-start">
+                    <h2 class="text-3xl font-extrabold md:text-4xl lg:text-5xl leading-9">How Cache Works?</h2>
+                    <p class="text-base font-medium leading-7">Cache Bank simplifies sign-up with a user-friendly website, streamlined account options, and an efficient verifications process, making banking accessible and hassle-free for developers.</p>
                   </div>
                   <!---->
 
-                  <!---->
-                  <div class="grid grid-cols-2">
-                    <div>
-                      <h4>1</h4>
-                      <h4>Visit Cache Bank Website</h4>
-                      <p>Go to Cache Bank, click "Sign Up" or "Open an Account"</p>
-                    </div>
-                    <div>
-                      <h4>2</h4>
-                      <h4>Choose Account Type</h4>
-                      <p>Select from checking, savings, or developer-specific accounts.</p>
-                    </div>
-                    <div>
-                      <h4>3</h4>
-                      <h4>Provide Personal Information</h4>
-                      <p>Complete the form with your details and identification for security.</p>
-                    </div>
-                      <div>
-                        <h4>4</h4>
-                        <h4>Verify and Submit</h4>
-                        <p>Check your information, agree to terms, and submit for account approval.</p>
+                  <!-- GET STARTED: STEPS-->
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-y-16 gap-x-10 w-full">
+ 
+                     <!-- 1-->
+                    <div class="flex flex-col items-start gap-1">
+                      <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-green-500">
+                        <span class="text-base font-bold leading-7 text-white">1</span>
                       </div>
-                </div>
+                        <h3 class="text-base font-bold leading-tight">Visit Cache Bank Website</h3>
+                        <p class="text-base font-medium leading-7">Go to Cache Bank, click "Sign Up" or "Open an Account"</p>
+                      </div>
+
+                      <!-- 2 -->
+                      <div class="flex flex-col items-start gap-1">
+                      <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-pink-500">
+                        <span class="text-base font-bold leading-7 text-white">2</span>
+                      </div>
+                      <h3 class="text-base font-bold leading-tight">Choose Account Type</h3>
+                        <p class="text-base font-medium leading-7">Select from checking, savings, or developer-specific accounts.</p>
+                        </div>
+
+                      <!-- 3 -->
+                      <div class="flex flex-col items-start gap-1">
+                      <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-green-500">
+                        <span class="text-base font-bold leading-7 text-white">3</span>
+                      </div>
+                      <h3 class="text-base font-bold leading-tight">Provide Personal Information</h3>
+                        <p class="text-base font-medium leading-7">Complete the form with your details and identification for security.</p>
+                        </div>
+
+                      <!-- 4-->
+                      <div class="flex flex-col items-start gap-1">
+                      <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-pink-500">
+                        <span class="text-base font-bold leading-7 text-white">4</span>
+                      </div>
+                      <h3 class="text-base font-bold leading-tight">Verify and Submit</h3>
+                        <p class="text-base font-medium leading-7">Check your information, agree to terms, and submit for account approval.</p>
+                        </div>
+
+                    </div>
+                    
+                  </div>
                 <!---->
-
-              </div>
-                
-
-                
+                </div>
             </div>
-
-             
-           </div>
-          </div>
-
-
-        </div>
-       </div>
-      </div>
+            </div> 
+            <!-- END OF GET STARTED SECTION -->
+            </div>      
     </section>
 
 
