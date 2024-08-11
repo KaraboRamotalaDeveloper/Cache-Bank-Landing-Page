@@ -35,7 +35,7 @@ document.addEventListener("scroll", function(){
   }
 });
 
-
+//gets the size of an element(specifically the top edge) relative to the viewport
 function isInView(element){
   const rect = element.getBoundingClientRect();
   return rect.top;
