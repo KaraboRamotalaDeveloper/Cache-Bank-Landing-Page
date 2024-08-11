@@ -27,10 +27,10 @@
 </head>
 
 <body class="bg-gray-100">
-  <!-- MAIN SECTION-->
+<!-- MAIN SECTION-->
   <div>
 
-    <!-- COMPONENT 1: RESPONSIVE NAVIGATION-->
+<!-- COMPONENT 1: RESPONSIVE NAVIGATION-->
      <div class="mx-auto bg-white">
         <!-- Main container with navigation and header content -->
         <div class="relative flex flex-wrap items-center justify-between w-full shrink-0">
@@ -39,10 +39,10 @@
           <img src="/assets/component-1/navigation/cache-bank-logo.png" alt="Cache Bank Logo" class="h-8 px-4">
          </div>
          <div class="hidden md:flex items-center justify-between gap-12 shrink-0 text-sm font-normal text-blue-900">
-          <a href="" class="hover:text-gray-900">Product</a>
-          <a href="" class="hover:text-gray-900">Features</a>
-          <a href="" class="hover:text-gray-900">Get Started</a>
-          <a href="" class="hover:text-gray-900">Contact</a>
+          <a href="#product" class="hover:text-gray-900">Product</a>
+          <a href="#features" class="hover:text-gray-900">Features</a>
+          <a href="#pricing" class="hover:text-gray-900">Get Started</a>
+          <a href="#company" class="hover:text-gray-900">Contact</a>
          </div>
          <div class="hidden md:flex gap-8 p-4 items-center text-sm font-normal text-gray-700 ">
           <button class="hover:text-gray-900">Log In</button>
@@ -78,20 +78,21 @@
         </svg>
          </button>
          <div class="hidden absolute flex flex-col items-start justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full px-4 py-8 shadow-main text-blue-900" id="mobile-menu">
-            <a href="" class="hover:text-blue-700">Product</a>
-            <a href="" class="hover:text-blue-700">Features</a>
-            <a href="" class="hover:text-blue-700">Get Started</a>
-            <a href="" class="hover:text-blue-700">Contact</a>
+            <a href="#product" class="hover:text-blue-700">Product</a>
+            <a href="#features" class="hover:text-blue-700">Features</a>
+            <a href="#pricing" class="hover:text-blue-700">Pricing</a>
+            <a href="#company" class="hover:text-blue-700">Company</a>
             <button class="text-grey-900 hover:text-blue-700">Log In</button>
             <button class="font-bold bg-green-500 px-4 py-2 text-blue-300 rounded-xl hover:bg-pink-600 hover:text-white active:scale-105 ">Sign-Up</button>
          </div>
         </div>
       </div>
      </div>
+<!-- END OF COMPONENT 1-->
 
-    <!-- COMPONENT 2: HERO AND ENDORSEMENTS-->
+<!-- COMPONENT 2: HERO AND ENDORSEMENTS -->
      <!-- HERO SECTIONS -->
-    <section class="container grid grid-cols-1 my-auto mt-12 mb-8 w-full md:grid-cols-2 md:gap-5 xl:gap-14">
+    <section class="container grid grid-cols-1 my-auto mt-12 mb-8 w-full md:grid-cols-2 md:gap-5 xl:gap-14" id="product">
       <!-- Wide full-width container for additional content -->
 
        <div class="flex flex-col text-center text-blue-900 justify-center col-span-1 lg:text-start">
@@ -116,7 +117,7 @@
     </section>
     <!-- END OF HERO SECTION-->
 
-  <!-- ENDORSEMENTS -->
+    <!-- ENDORSEMENTS -->
    <section class="w-full">
     <div class="container flex flex-col items-center gap-6 mx-auto my-40 text-blue-900 font-semibold">
 
@@ -162,11 +163,13 @@
       </div>
     </div>
    </section>
-  <!-- END OF ENDORSEMENTS SECTION-->
+    <!-- END OF ENDORSEMENTS SECTION-->
+<!-- END OF COMPONENT 2 -->
+  
 
 
 <!-- COMPONENT 3: FEATURES -->
-    <section class="container mx-auto">
+    <section class="container mx-auto" id="features">
       <!-- Centered container for more content -->
 
        <!-- HEADER-->
@@ -228,7 +231,7 @@
           </div>
         </div> 
 
-        <!-- card 4 -->
+        <!-- CARD 4 -->
         <div class="flex flex-col justify-center items-center gap-4 bg-white rounded-3xl shadow-lg p-4 hover:bg-green-500 transition ease-in-out duration-300">
           <div class="flex justify-center items-center w-14 h-14 bg-pink-500 p-4 rounded-2xl shadow">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
@@ -271,9 +274,10 @@
 
        <!-- END OF CARD SECTION-->
     </section>
+<!-- END OF COMPONENT 3 -->
 
-    <!-- COMPONENT 4: STATS AND GETTING STARTED -->
-    <section class="w-full">
+<!-- COMPONENT 4: STATS AND GETTING STARTED -->
+    <section class="w-full" id="pricing">
       <!-- Wide full-width container for additional content -->
        <div class="container flex flex-col items-center mx-auto my-32 gap-16 text-blue-900">
 
@@ -374,11 +378,11 @@
             <!-- END OF GET STARTED SECTION -->
             </div>      
     </section>
+<!-- END OF COMPONENT 4 -->
 
-    <!-- COMPONENT 5: CONTACT AND FOOTER-->
-
+<!-- COMPONENT 5: CONTACT AND FOOTER-->
     <!-- CONTACT -->
-    <div class="w-full">
+    <div class="w-full" id="company">
       <!-- Wide full-width container for additional content -->
 
       <!-- CONTAINER -->
@@ -434,8 +438,9 @@
        </div>
     </div>
   </div>
+<!-- END OF COMPONENT 5 -->
 
-  <!-- FOOTER -->
+<!-- FOOTER -->
     <div class="w-full bg-green-500">
         <!-- Full-width footer container with green background -->
          <div class="container flex flex-col items-center gap-20">
@@ -504,14 +509,14 @@
         </div>
          </div>
     </div>
-    <!-- END OF FOOTER -->
+<!-- END OF FOOTER -->
+    
+
 
     <!--SCRIPTS-->
-
-    <!-- external JS script to add all the functionalities-->
+    <!-- external own JS script to add all the functionalities-->
     <script src="/src/index.js"></script>
     <!---->
-
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/leaflet.js"></script>
