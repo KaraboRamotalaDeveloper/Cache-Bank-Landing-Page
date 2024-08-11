@@ -9,7 +9,7 @@
 
 /* animation for the scrolling of svg icons */
 .endorsements-svg-container{
-  animation: scroll 5s linear infinite;
+  animation: scroll 5s linear infinite alternate;
 }
 
 
