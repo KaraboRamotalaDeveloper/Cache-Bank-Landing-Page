@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="./assets/css/loopple/loopple.css">
     <!--OWN STYLESHEET-->
     <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/extra-features/index.css"/>
 </head>
 
 <body class="bg-gray-100">
@@ -118,7 +119,7 @@
     <!-- END OF HERO SECTION-->
 
     <!-- ENDORSEMENTS -->
-   <section class="w-full">
+   <section id="endorsements-section-el" class="w-full section-el">
     <div class="container flex flex-col items-center gap-6 mx-auto my-40 text-blue-900 font-semibold">
 
       <p class="text-center mb-10 text-2xl">Endorsed by global companies like</p>
@@ -169,7 +170,7 @@
 
 
 <!-- COMPONENT 3: FEATURES -->
-    <section class="container mx-auto" id="features">
+    <section class="container mx-auto section-el" id="features">
       <!-- Centered container for more content -->
 
        <!-- HEADER-->
@@ -281,8 +282,9 @@
       <!-- Wide full-width container for additional content -->
        <div class="container flex flex-col items-center mx-auto my-32 gap-16 text-blue-900">
 
-        <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8">
-          <!-- STATISTICS BLOCKS-->
+        <!-- STATISTICS BLOCKS-->
+        <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8 section-el" id="stats-section-el">
+          
            <!-- Block 1 -->
             <div class="flex flex-col items-center">
               <h3 class="text-5xl font-extrabold leading-tight text-center"><span id="countto1" countto="250">250</span><span>+</span></h3>
@@ -312,7 +314,7 @@
           <!-- END OF STATISTICS BLOCKS-->
 
           <!-- GET STARTED SECTION-->
-           <div class="w-full">
+           <div class="w-full section-el" id="getStarted-el">
              <div class="container flex flex-col items-center gap-16 mx-auto my-32">
                <div class="grid grid-cols-1 lg:grid-cols-2 gap-32">
                 <!-- GET STARTED:IMAGE -->
@@ -516,6 +518,7 @@
     <!--SCRIPTS-->
     <!-- external own JS script to add all the functionalities-->
     <script src="/src/index.js"></script>
+    <script src="/assets/extra-features/index.js"></script>
     <!---->
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>

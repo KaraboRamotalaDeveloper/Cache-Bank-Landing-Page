@@ -1,0 +1,8 @@
+/*properties for alteration on scroll*/
+.section__el--visible{
+  opacity:1;
+  transition:1s ease;
+}
+.section-el{
+  opacity:0;
+}
