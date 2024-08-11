@@ -1,4 +1,4 @@
-/*properties for alteration on scroll*/
+/* properties for alteration on scroll */
 .section__el--visible{
   opacity:1;
   transition:1s ease;
@@ -6,3 +6,15 @@
 .section-el{
   opacity:0;
 }
+
+/* animation for the scrolling of svg icons */
+.endorsements-svg-container{
+  animation: scroll 5s linear infinite;
+}
+
+
+  @keyframes scroll{
+    to {
+      transform:translateX(calc((-2% - 4rem))) ;
+    }
+  }
