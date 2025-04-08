@@ -1,7 +1,7 @@
 # SDF Presentation
-Loom Link: [ [Loom Project Presentation Video Link] (https://www.loom.com/share/9af5587ffa3b459a9bf2aaa6d0ffd743?sid=e5337aff-ad55-43ff-8639-a49b27c69963)]
+Loom Link: [[Loom Project Presentation Video Link](https://www.loom.com/share/9af5587ffa3b459a9bf2aaa6d0ffd743?sid=e5337aff-ad55-43ff-8639-a49b27c69963)]
 
-Presentation Slides: [  [Project Presentation Slides] (https://github.com/RamotalaKarabo/SDF_Portfolio_Piece_CS20240182_WF02407_B_Karabo-Ramotala_SDF11/blob/main/Project%20Presentation/Presentation%20Slides.pdf)]
+Presentation Slides: [[Project Presentation Slides](https://github.com/RamotalaKarabo/SDF_Portfolio_Piece_CS20240182_WF02407_B_Karabo-Ramotala_SDF11/blob/main/Project%20Presentation/Presentation%20Slides.pdf)]
 
 # Presentation Talking Points
 
